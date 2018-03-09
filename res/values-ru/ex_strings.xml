@@ -203,7 +203,7 @@
     <string name="expanded_hide_both">Скрыть всё</string>
     <string name="expanded_nothing_to_show">Чтобы добавить пользовательскую конфигурацию для каждого приложения, установите значение "Включено для всех" в положение выкл</string>
     <string name="expanded_desktop_state">Расширенное состояние</string>
-    <string name="expanded_enabled_for_all">ключено для всех</string>
+    <string name="expanded_enabled_for_all">Включено для всех</string>
     <string name="expanded_user_configurable">Настраиваемый пользователем</string>
     <string name="expanded_desktop_style">Стиль расширенного рабочего стола</string>
     <string name="expanded_desktop_style_description">Выберите расширенный стиль рабочего стола по умолчанию</string>
