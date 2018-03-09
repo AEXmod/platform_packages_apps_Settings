@@ -194,4 +194,22 @@
     <string name="sub_activate_failed">Ошибка при активации.</string>
     <string name="sub_deactivate_success">Деактивация выполнена.</string>
     <string name="sub_deactivate_failed">Ошибка при деактивации.</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Расширенный рабочий стол</string>
+    <string name="expanded_hide_nothing">Ничего не скрывать</string>
+    <string name="expanded_hide_status">Скрыть строку состояния</string>
+    <string name="expanded_hide_navigation">Скрыть бар навигации</string>
+    <string name="expanded_hide_both">Скрыть всё</string>
+    <string name="expanded_nothing_to_show">Чтобы добавить пользовательскую конфигурацию для каждого приложения, установите значение "Включено для всех" в положение выкл</string>
+    <string name="expanded_desktop_state">Расширенное состояние</string>
+    <string name="expanded_enabled_for_all">ключено для всех</string>
+    <string name="expanded_user_configurable">Настраиваемый пользователем</string>
+    <string name="expanded_desktop_style">Стиль расширенного рабочего стола</string>
+    <string name="expanded_desktop_style_description">Выберите расширенный стиль рабочего стола по умолчанию</string>
+    <string name="expanded_desktop_title">Опции расширенного рабочего стола</string>
+
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">ADB по сети</string>
+    <string name="adb_over_network_summary">Включить отладку TCP/IP через сетевые интерфейсы (Wi-Fi, USB сети). Этот параметр сбрасывается при перезагрузке</string>
 </resources>
