@@ -518,4 +518,11 @@
     <!-- Battery saver color -->
     <string name="battery_saver_color_title">Цветовое оповещение</string>
     <string name="battery_saver_color_summary">Окрашивать статусбар и панель навигации в оранжевый, когда включён режим энергосбережения</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Всего памяти</string>
+
 </resources>
