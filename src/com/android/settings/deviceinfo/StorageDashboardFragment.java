@@ -124,17 +124,16 @@ public class StorageDashboardFragment extends DashboardFragment
 
     private void onReceivedSizes() {
         if (mStorageInfo != null) {
-            long totalBytes = com.android.settingslib.Utils.getTotalRomSize();
-            long privateUsedBytes = totalBytes - mStorageInfo.freeBytes;
-            mSummaryController.updateBytes(privateUsedBytes, totalBytes);
+            long privateUsedBytes = mStorageInfo.totalBytes - mStorageInfo.freeBytes;
+            mSummaryController.updateBytes(privateUsedBytes, mStorageInfo.totalBytes);
             mPreferenceController.setVolume(mVolume);
             mPreferenceController.setUsedSize(privateUsedBytes);
-            mPreferenceController.setTotalSize(totalBytes);
+            mPreferenceController.setTotalSize(mStorageInfo.totalBytes);
             for (int i = 0, size = mSecondaryUsers.size(); i < size; i++) {
                 AbstractPreferenceController controller = mSecondaryUsers.get(i);
                 if (controller instanceof SecondaryUserController) {
                     SecondaryUserController userController = (SecondaryUserController) controller;
-                    userController.setTotalSize(totalBytes);
+                    userController.setTotalSize(mStorageInfo.totalBytes);
                 }
             }
         }
